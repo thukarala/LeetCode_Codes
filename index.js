@@ -2,7 +2,7 @@ const jsonfile = require('jsonfile');
 const moment = require('moment');
 const FILE_PATH = "data.json";
 const simplegit = require('simple-git');
-const DATE = moment().subtract(78, 'd').format();
+const DATE = moment().subtract(115, 'd').format();
 
 const data = {
     date : DATE
